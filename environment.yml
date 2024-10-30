@@ -1,0 +1,28 @@
+name: SpeakSenseML
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - bokeh
+  - jupyter
+  - ipython
+  - tqdm
+  - pyserial
+  - pip
+  - pip:
+    - reportlab
+    - fpdf
+    - WeasyPrint
+    - PyPDF2
+    - esptool
+    - pyserial-asyncio
+    - plotly
+    - altair
+    # Add any other pip packages you need
